@@ -1,0 +1,11 @@
+{
+    "focusTile":"div.container div.container div.choose-experience-container div.box-row div.focus-box div.focus-box-inner div.focus-box-front > div.focus-box-front-headings",
+    "focusZenseText":"div.container div.container div.choose-zense-container div.zense-heading > span:nth-child(1)",
+    "soundTile":"div.container div.container div.choose-zense-container div.box-row-zense div.zense-box:nth-child(2) div.zense-box-inner div.zense-box-front > img.zense-box-vector",
+    "chooseSoundTitle":"div.container div.container div:nth-child(1) div.choose-experience-container h1.major-heading-experience > span:nth-child(1)",
+    "rightArrowSoundExperience":"div.container div.container div:nth-child(1) div.choose-experience-container div.slider-cont div.arrow-container:nth-child(3) > img.slider-next",
+    "leftArrowSoundExperience":"div.container div.container div:nth-child(1) div.choose-experience-container div.slider-cont div.arrow-container:nth-child(1) > img.slider-back",
+    "tenMinSoundExperienceOption":"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/button[2]",
+    "FocusSoundExperienceNextButton":"div.container div.container div:nth-child(1) div.choose-experience-container div.experience-btn-container > button.next-button",
+    "hereIsYourChosenExperienceText":"div.container div.container div:nth-child(1) div.choose-feeling-container h1.major-heading-feeling > span:nth-child(1)"
+}
