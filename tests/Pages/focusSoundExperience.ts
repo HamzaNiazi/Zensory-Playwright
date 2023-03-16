@@ -45,12 +45,15 @@ async clickFocusTile() {
   }
   async clickLeftArrowSoundExperience(){
       const button = await this.page.locator(focusSoundExperienceLocators.leftArrowSoundExperience);
-  }
+      await button.click();
+    }
   async clickTenminSoundExperienceOption(){
       const button = await this.page.locator(focusSoundExperienceLocators.tenMinSoundExperienceOption);
-  }
+      await button.click();
+    }
   async clickFocusSoundExperienceNextButton(){
       const button =await this.page.locator(focusSoundExperienceLocators.FocusSoundExperienceNextButton);
+      await button.click();
       const expectedPartialText = 'chosen';
       const element = await this.page.locator(focusSoundExperienceLocators.hereIsYourChosenExperienceText);
       const actualText = await element.textContent();

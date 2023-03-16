@@ -17,6 +17,7 @@ test("Focus sound experience smokeTest",async({page,baseURL})=>{
     await FocusSoundExperienceObject.clickLeftArrowSoundExperience();
     await FocusSoundExperienceObject.clickLeftArrowSoundExperience();
     await FocusSoundExperienceObject.clickFocusSoundExperienceNextButton();
+    
 }
 
 )
