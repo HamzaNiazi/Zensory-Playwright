@@ -60,4 +60,70 @@ async clickFocusTile() {
       await expect(actualText).toContain(expectedPartialText);
   }
 
+  async clickLearnWhySoundExperience(){
+      const button =await this.page.locator(focusSoundExperienceLocators.learnWhySoundExperience);
+      await button.click();
+      const expectedPartialText = 'Binaural';
+      const element = await this.page.locator(focusSoundExperienceLocators.binauralBeatsSoundExperiencePopupText);
+      const actualText = await element.textContent();
+      await expect(actualText).toContain(expectedPartialText);
+
+  }
+  async clickcloseBinauralBeatsSoundExperiencePopupText(){
+      const button =await this.page.locator(focusSoundExperienceLocators.closeBinauralBeatsSoundExperiencePopupText);
+      await button.click();
+
+  }
+  async clickletsBeginFocusSoundExperienceButton(){
+      const button =await this.page.locator(focusSoundExperienceLocators.letsBeginFocusSoundExperienceButton);
+      await button.click();
+    //   const expectedPartialText = 'Full';
+    //   const element = await this.page.locator(focusSoundExperienceLocators.fullScreenSoundExperienceText);
+    //   const actualText = await element.textContent();
+    //   await expect(actualText).toContain(expectedPartialText);
+ 
+    }
+    async clickvolumeFocusSoundExperience(){
+        const button = await this.page.locator(focusSoundExperienceLocators.volumeFocusSoundExperience);
+        await button.click();
+
+    }
+
+    async binauralFocusSlider(){
+        const slider=await this.page.locator(focusSoundExperienceLocators.binauralSliderFocusSoundExperience);
+//         const box = await slider.boundingBox();
+
+// // Calculate the x-coordinate of the center of the slider
+// const centerX = box.x + box.width / 2;
+
+// // Move the slider to the right
+// await slider.dispatchEvent('mousedown', { x: centerX, y: box.y });
+// await slider.dispatchEvent('mousemove', { x: centerX + 50, y: box.y });
+// await slider.dispatchEvent('mouseup', { x: centerX + 50, y: box.y });
+
+// // Move the slider to the left
+// await slider.dispatchEvent('mousedown', { x: centerX, y: box.y });
+// await slider.dispatchEvent('mousemove', { x: centerX - 50, y: box.y });
+// await slider.dispatchEvent('mouseup', { x: centerX - 50, y: box.y });
+//     }
+
+const sliderBoundingBox = await slider.boundingBox();
+
+  // calculate the x-coordinate for 50% of the slider
+  const centerX = sliderBoundingBox.x + sliderBoundingBox.width / 2;
+
+  // move the slider to the left by 50 pixels
+  await this.page.mouse.move(centerX, sliderBoundingBox.y);
+  await this.page.mouse.down();
+  await this.page.mouse.move(centerX - 50, sliderBoundingBox.y, { steps: 20 });
+  await this.page.mouse.up();
+
+  // move the slider to the right by 50 pixels
+  await this.page.mouse.move(centerX, sliderBoundingBox.y);
+  await this.page.mouse.down();
+  await this.page.mouse.move(centerX + 50, sliderBoundingBox.y, { steps: 20 });
+  await this.page.mouse.up();
+    }
+
+
 }

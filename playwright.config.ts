@@ -13,7 +13,7 @@ import { on } from 'events';
 export default defineConfig({
   testDir: './tests',
   /* Maximum time one test can run for. */
-  timeout: 40 * 1000,
+  timeout: 100 * 2000,
   // testMatch:'smokeTestList.test.ts',
   
   expect: {

@@ -7,5 +7,12 @@
     "leftArrowSoundExperience":"div.container div.container div:nth-child(1) div.choose-experience-container div.slider-cont div.arrow-container:nth-child(1) > img.slider-back",
     "tenMinSoundExperienceOption":"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/button[2]",
     "FocusSoundExperienceNextButton":"div.container div.container div:nth-child(1) div.choose-experience-container div.experience-btn-container > button.next-button",
-    "hereIsYourChosenExperienceText":"div.container div.container div:nth-child(1) div.choose-feeling-container h1.major-heading-feeling > span:nth-child(1)"
+    "hereIsYourChosenExperienceText":"div.container div.container div:nth-child(1) div.choose-feeling-container h1.major-heading-feeling > span:nth-child(1)",
+    "learnWhySoundExperience":"div.container div.container div.choose-feeling-container div.experience-instruction div:nth-child(2) span:nth-child(1) p:nth-child(1) > span:nth-child(2)",
+    "binauralBeatsSoundExperiencePopupText":"div.container div.container div:nth-child(1) div.binaural-popup-container div.binaural-popup-content p.binaural-popup-instruction > span:nth-child(1)",
+    "closeBinauralBeatsSoundExperiencePopupText":"div.container div.container div:nth-child(1) div.binaural-popup-container div.popup-header > img.popup-close-icon",
+    "letsBeginFocusSoundExperienceButton":"div.container div.container div:nth-child(1) div.choose-feeling-container div.button-container button.next-button > span:nth-child(1)",
+    "fullScreenSoundExperienceText":"div.container div.container div.experience-container div.trackplayer:nth-child(5) div.track-controls-randomize > div.timer",
+    "volumeFocusSoundExperience":"div.container div.container div.experience-container div.trackplayer:nth-child(5) div.track-controls-randomize:nth-child(1) > img.play",
+    "binauralSliderFocusSoundExperience":"div.container div.container div.experience-container div:nth-child(5) div.popup-container-volume div.react-slider-container:nth-child(4) div.customSlider > div.customSlider-thumb.customSlider-thumb-0:nth-child(3)"
 }
