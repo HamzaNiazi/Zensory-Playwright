@@ -5,14 +5,34 @@
     "chooseSoundTitle":"div.container div.container div:nth-child(1) div.choose-experience-container h1.major-heading-experience > span:nth-child(1)",
     "rightArrowSoundExperience":"div.container div.container div:nth-child(1) div.choose-experience-container div.slider-cont div.arrow-container:nth-child(3) > img.slider-next",
     "leftArrowSoundExperience":"div.container div.container div:nth-child(1) div.choose-experience-container div.slider-cont div.arrow-container:nth-child(1) > img.slider-back",
-    "tenMinSoundExperienceOption":"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/button[2]",
+    "BeachTileFocusSoundEXperience":"#beach",
+    "tenMinSoundExperienceOption":"//button[@id='600']",
     "FocusSoundExperienceNextButton":"div.container div.container div:nth-child(1) div.choose-experience-container div.experience-btn-container > button.next-button",
+    
+    
     "hereIsYourChosenExperienceText":"div.container div.container div:nth-child(1) div.choose-feeling-container h1.major-heading-feeling > span:nth-child(1)",
     "learnWhySoundExperience":"div.container div.container div.choose-feeling-container div.experience-instruction div:nth-child(2) span:nth-child(1) p:nth-child(1) > span:nth-child(2)",
     "binauralBeatsSoundExperiencePopupText":"div.container div.container div:nth-child(1) div.binaural-popup-container div.binaural-popup-content p.binaural-popup-instruction > span:nth-child(1)",
     "closeBinauralBeatsSoundExperiencePopupText":"div.container div.container div:nth-child(1) div.binaural-popup-container div.popup-header > img.popup-close-icon",
     "letsBeginFocusSoundExperienceButton":"div.container div.container div:nth-child(1) div.choose-feeling-container div.button-container button.next-button > span:nth-child(1)",
+    
+    "startExperienceButtonSafariFocusSoundExperience":"//*[@id='root']/div/div[1]/div/div[3]/div[2]",
     "fullScreenSoundExperienceText":"div.container div.container div.experience-container div.trackplayer:nth-child(5) div.track-controls-randomize > div.timer",
     "volumeFocusSoundExperience":"div.container div.container div.experience-container div.trackplayer:nth-child(5) div.track-controls-randomize:nth-child(1) > img.play",
-    "binauralSliderFocusSoundExperience":"div.container div.container div.experience-container div:nth-child(5) div.popup-container-volume div.react-slider-container:nth-child(4) div.customSlider > div.customSlider-thumb.customSlider-thumb-0:nth-child(3)"
+    "binauralSliderFocusSoundExperience":"div.container div.container div.experience-container div:nth-child(5) div.popup-container-volume div.react-slider-container:nth-child(4) div.customSlider > div.customSlider-thumb.customSlider-thumb-0:nth-child(3)",
+    "musicSliderFocusSoundExperience":"div.container div.container div.experience-container div:nth-child(5) div.popup-container-volume div.react-slider-container:nth-child(5) div.customSlider > div.customSlider-thumb.customSlider-thumb-0:nth-child(3)",
+    "naturescapeSliderFocusSoundExperience":"div.container div.container div.experience-container div:nth-child(5) div.popup-container-volume div.react-slider-container:nth-child(6) div.customSlider > div.customSlider-thumb.customSlider-thumb-0:nth-child(3)",
+    "closeVolumePopUpFocusSoundEXperience":"div.container div.container div.experience-container div:nth-child(5) div.popup-container-volume div.popup-header:nth-child(1) > img.popup-close-icon",
+    "playPauseFocusSoundExperienceButton":"div.container div.container div.experience-container div.trackplayer:nth-child(5) div.track-controls:nth-child(2) > img.play:nth-child(1)",
+    "pauseTextOnTapToResumePopUpFocusSoundExperience":"div.container div.container div.experience-container div.trackplayer:nth-child(6) div.overlay-container:nth-child(2) > h1.overlay-heading",
+    "resumeTextOnTapToResumePopUpFocusSoundExperience":"div.container div.container div.experience-container div.trackplayer:nth-child(6) > div.overlay-container:nth-child(2)",
+    "fullScreenFocusSoundExperience":"div.container div.container div.experience-container div.trackplayer:nth-child(5) div.track-controls-randomize:nth-child(3) > img.play",
+    "endExperienceFocusSoundExperienceButton":"div.container div.container div.experience-container div.close:nth-child(3) > span:nth-child(2)",
+    "endExperincePoupFocusSoundExperienceButton":"#go-back-okay-btn",
+    "wellDoneExperienceCompletedFocusSoundExperienceButton":"div.container div.container div.review-container div.review-content-container h1.major-heading-review > span:nth-child(1)",
+    "yesHappyFaceFocusSoundExperienceButton":"#happy-face-img",
+    "continueEndExperienceFocusSoundExperienceButton":"div.container div.container div.review-container div.review-content-container div.Tooltip-Wrapper div.continue-button-container > button.next-button-review",
+    "getZensoryForUserOwnCompanyText":"div.container div.container div.review-container div.after-experience-content-container h1.major-heading-after-experience > span:nth-child(1)",
+    "finishAndGoHomeButton":"div.container div.container div.review-container div.after-experience-content-container div.review-button-container > button.next-button-review",
+    "welcomeToYourZensoryExperienceTextHomePage":"div.container div.container div.choose-experience-container h1.welcome-heading-complete > span:nth-child(1)"
 }
